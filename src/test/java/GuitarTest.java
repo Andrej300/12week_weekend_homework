@@ -29,6 +29,11 @@ public class GuitarTest {
         assertEquals("Gibson", testGuitar.getModel());
     }
 
+    @Test
+    public void hasCostPrice(){
+        assertEquals(300, testGuitar.getCostPrice());
+    }
+
 
 
 

@@ -22,4 +22,8 @@ public class Guitar extends Instrument {
     public String getName() {
         return name;
     }
+
+    public int getCostPrice() {
+        return costPrice;
+    }
 }

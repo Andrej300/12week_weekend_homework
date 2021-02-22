@@ -9,12 +9,8 @@ public class Guitar extends Instrument {
 
 
     public Guitar(String name, String model, String colour, int costPrice, int sellingPrice) {
-        super(colour, model);
+        super(colour, model, costPrice, sellingPrice);
         this.name = name;
-        this.model = model;
-        this.costPrice = costPrice;
-        this.sellingPrice = sellingPrice;
-
 
 
     }
@@ -23,21 +19,11 @@ public class Guitar extends Instrument {
         return name;
     }
 
-    public int getCostPrice() {
-        return costPrice;
+    public String play() {
+        return "Dram-dram";
     }
 
-    public int getSellingPrice() {
-        return sellingPrice;
-    }
 
-    public String play(){
-        return "Lalala";
-    };
-
-    public void setSellingPrice(int sellingPrice) {
-        this.sellingPrice = sellingPrice;
-    }
 
 }
 

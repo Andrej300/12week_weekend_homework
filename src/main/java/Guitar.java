@@ -30,4 +30,10 @@ public class Guitar extends Instrument {
     public int getSellingPrice() {
         return sellingPrice;
     }
-}
+
+    public String play(){
+        return "Lalala";
+    };
+
+    }
+

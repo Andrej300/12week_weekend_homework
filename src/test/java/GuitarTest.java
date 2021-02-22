@@ -50,12 +50,12 @@ public class GuitarTest {
     public void canPlayGuitar(){
         assertEquals("Dram-dram", testGuitar.play());
     }
+    @Test
+    public void canCalculateMarkup() {
+        assertEquals(300, testGuitar.calculateMarkup());
+    }
 
-
-
-
-
-        }
+}
 
 
 

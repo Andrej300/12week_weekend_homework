@@ -23,6 +23,10 @@ public class Guitar extends Instrument {
         return "Dram-dram";
     }
 
+    public int calculateMarkup() {
+        return getSellingPrice() - getCostPrice();
+    }
+
 
 
 }

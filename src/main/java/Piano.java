@@ -18,4 +18,9 @@ public class Piano extends Instrument {
 
     public String play() {
         return "Lalala";}
+
+    public int calculateMarkup() {
+        return getSellingPrice() - getCostPrice();
+
+    }
 }

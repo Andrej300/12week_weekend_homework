@@ -35,5 +35,9 @@ public class Guitar extends Instrument {
         return "Lalala";
     };
 
+    public void setSellingPrice(int sellingPrice) {
+        this.sellingPrice = sellingPrice;
     }
+
+}
 
